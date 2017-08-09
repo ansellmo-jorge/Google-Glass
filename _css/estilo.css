@@ -1,17 +1,35 @@
 @charset "UTF-8";
 
 body {
-		background-color: white;
+		background-color: #dddddd;
 		color: rgba(0, 0, 0, 1);
 	}
-	
+
+    /* Formatação de Interface */
+
+div#interface {
+    width: 900px;
+    background-color: white;
+    margin: -20px auto 0px auto; /* Este Margin centraliza a interface */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+    padding: 10px;
+}
 	p {
 		text-align: justify;
 		text-indent: 50px;
     }
     
+    header#cabecalho img#icone {
+        position: absolute;
+        left: 750px;
+        top: 40px;
+    }
+
+    header#cabecalho {
+
+    }
     /* Formatação de imagens com legenda */
-    
+
 figure.foto-legenda {
     position: relative;
     border: 8px solid: white;
@@ -77,6 +95,6 @@ nav#menu a { /* Formatação de Links do menu */
 
 nav#menu a:hover {
     color: #ffffff;
-    text-decoration: indigo;
 }
+
 
