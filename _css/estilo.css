@@ -131,7 +131,22 @@ section#corpo {
     float: left;
     border-right: 1px solid #606060;
     padding-right: 15px;
+}
 
+/* Formatação de Tabela */
+
+table#tabelaspec {
+    border: 1px solid #606060;
+    border-spacing: 0px; /* Da espaco entre as celulas */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#tabelaspec td {
+    border: 1px solid #606060;
+    padding: 10px;
+    text-align: right;
+    
 }
 
 aside#lateral {
